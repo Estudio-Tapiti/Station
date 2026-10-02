@@ -1,7 +1,8 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1790903782
+::res://::1790904719
 game.tscn::PackedScene::8479179997036660009::1790898636::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::6821958664791773834::1790898309::1790903782::1::::<><><>0<>0<>d2d2eb9a9b25f823fb7489871da0064b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://addons/::1790904704
 ::res://assets/::1790899704
 ::res://assets/audio/::1790898605
 ::res://assets/audio/bgm/::1790898601
@@ -13,8 +14,8 @@ templategrid_albedo.png::CompressedTexture2D::5502255215636475684::1790898954::1
 templategrid_mat.tres::StandardMaterial3D::4674152985089040590::1790899068::0::1::::<><><>0<>0<><>::uid://cknllsqgc823y::::res://assets/placeholder/templategrid_albedo.png
 ::res://assets/models/::1790903765
 ::res://assets/models/actors/::1790903765
-::res://assets/models/actors/Player/::1790903765
-TestDummyWalk.fbx::PackedScene::3876889502161932253::1790903765::1790903782::1::::<><><>0<>0<>08ca0b4a180a2e8354128d64ff625e65<>res://.godot/imported/TestDummyWalk.fbx-3360dd8b9275a9af7b2bd4089ff87708.scn::
+::res://assets/models/actors/Player/::1790904163
+test_dummy_walk.tscn::PackedScene::8288625784325548501::1790904163::0::1::::<><><>0<>0<><>::
 ::res://game_logic/::1790900442
 global.gd::GDScript::7357340267006869453::1790900442::0::1::::<>Node<><>0<>1<><>::
 ::res://game_logic/user_interface/::1790903764
@@ -23,10 +24,10 @@ dialog.tscn::PackedScene::6320138051807397239::1790900036::0::1::::<><><>0<>0<><
 game.tscn::PackedScene::1422909911805791342::1790903764::0::1::::<><><>0<>0<><>::uid://brrxkjtfb6tg3::::res://game_logic/user_interface/dialog.gd<>uid://cwbr0rm7m5oh8::::res://game_logic/user_interface/dialog.tscn
 ::res://scenes/::1790898579
 ::res://scenes/components/::1790898585
-::res://scenes/components/actors/::1790903765
-player.gd::GDScript::6575041183376134330::1790902245::0::1::::<>CharacterBody3D<><>0<>0<><>::
-Player.tscn::PackedScene::2148800885537507458::1790903765::0::1::::<><><>0<>0<><>::uid://c0w875vdem7hm::::res://scenes/components/actors/player.gd<>uid://bvh82lb3p3l6d::::res://assets/models/actors/Player/TestDummyWalk.fbx
-::res://scenes/levels/::1790902285
+::res://scenes/components/actors/::1790904177
+player.gd::GDScript::6575041183376134330::1790904098::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Player.tscn::PackedScene::2148800885537507458::1790904177::0::1::::<><><>0<>0<><>::uid://c0w875vdem7hm::::res://scenes/components/actors/player.gd<>uid://dqdcpq1hsu6m8::::res://assets/models/actors/Player/test_dummy_walk.tscn
+::res://scenes/levels/::1790904196
 level_base.gd::GDScript::4736413345172972257::1790902156::0::1::::Level<>Node3D<><>0<>1<><>::
-level_base.tscn::PackedScene::4525082626039336640::1790902285::0::1::::<><><>0<>0<><>::uid://b8qmbhm67jvv2::::res://scenes/levels/level_base.gd<>uid://5u5o300f5o2u::::res://scenes/components/actors/Player.tscn
+level_base.tscn::PackedScene::4525082626039336640::1790904196::0::1::::<><><>0<>0<><>::uid://b8qmbhm67jvv2::::res://scenes/levels/level_base.gd<>uid://5u5o300f5o2u::::res://scenes/components/actors/Player.tscn
 placeholder.tscn::PackedScene::379723907875263920::1790901780::0::1::::<><><>0<>0<><>::uid://b5p8pj5d0m1pk::::res://scenes/levels/level_base.tscn<>uid://b7ugu78hom287::::res://assets/material/templategrid_mat.tres
