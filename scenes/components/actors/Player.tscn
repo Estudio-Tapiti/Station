@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://5u5o300f5o2u"]
 
 [ext_resource type="Script" uid="uid://c0w875vdem7hm" path="res://scenes/components/actors/player.gd" id="1_csch0"]
-[ext_resource type="PackedScene" uid="uid://bvh82lb3p3l6d" path="res://assets/models/actors/Player/TestDummyWalk.fbx" id="2_dwfs5"]
+[ext_resource type="PackedScene" uid="uid://dqdcpq1hsu6m8" path="res://assets/models/actors/Player/test_dummy_walk.tscn" id="2_dwfs5"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1vivr"]
 size = Vector3(0.85058594, 1, 1.4490967)
@@ -11,10 +11,9 @@ radius = 0.50390625
 
 [node name="Player" type="CharacterBody3D" unique_id=275052377 node_paths=PackedStringArray("animation")]
 script = ExtResource("1_csch0")
-animation = NodePath("TestDummyWalk")
+animation = NodePath("")
 
-[node name="TestDummyWalk" parent="." unique_id=581904068 instance=ExtResource("2_dwfs5")]
-transform = Transform3D(0.365, 0, 0, 0, 0.365, 0, 0, 0, 0.365, 0, 0.88806677, 0)
+[node name="TestDummyWalk" parent="." unique_id=1981432894 instance=ExtResource("2_dwfs5")]
 
 [node name="Area3D" type="Area3D" parent="." unique_id=1384608176]
 
