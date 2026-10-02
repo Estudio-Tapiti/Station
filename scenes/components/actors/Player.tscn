@@ -1,8 +1,7 @@
 [gd_scene format=3 uid="uid://5u5o300f5o2u"]
 
 [ext_resource type="Script" uid="uid://c0w875vdem7hm" path="res://scenes/components/actors/player.gd" id="1_csch0"]
-
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_1vivr"]
+[ext_resource type="PackedScene" uid="uid://bvh82lb3p3l6d" path="res://assets/models/actors/Player/TestDummyWalk.fbx" id="2_dwfs5"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1vivr"]
 size = Vector3(0.85058594, 1, 1.4490967)
@@ -13,8 +12,8 @@ radius = 0.50390625
 [node name="Player" type="CharacterBody3D" unique_id=275052377]
 script = ExtResource("1_csch0")
 
-[node name="Model" type="MeshInstance3D" parent="." unique_id=1801772395]
-mesh = SubResource("CapsuleMesh_1vivr")
+[node name="TestDummyWalk" parent="." unique_id=581904068 instance=ExtResource("2_dwfs5")]
+transform = Transform3D(0.365, 0, 0, 0, 0.365, 0, 0, 0, 0.365, 0, 0.88806677, 0)
 
 [node name="Area3D" type="Area3D" parent="." unique_id=1384608176]
 

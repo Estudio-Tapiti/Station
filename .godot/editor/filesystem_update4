@@ -1,9 +1,1 @@
-res://game.tscn
-res://scenes/levels/placeholder.tscn
 res://scenes/components/actors/Player.tscn
-res://scenes/components/actors/player.gd
-res://game_logic/user_interface/dialog.tscn
-res://scenes/levels/level.gd
-res://scenes/levels/level_base.tscn
-res://scenes/levels/level_base.gd
-res://game_logic/global.gd
