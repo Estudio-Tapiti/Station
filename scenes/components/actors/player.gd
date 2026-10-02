@@ -5,6 +5,8 @@ const ACCELERATION := 25.0
 const DECELERATION := 30.0
 const ROTATION_SPEED := 10.0
 
+@export var animation = Node
+
 func _physics_process(delta: float) -> void:
 	var input_dir := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	var direction := Vector3(input_dir.x, 0.0, input_dir.y).normalized()
@@ -16,7 +18,9 @@ func _physics_process(delta: float) -> void:
 		velocity = velocity.move_toward(Vector3(target_velocity.x, velocity.y, target_velocity.z), ACCELERATION * delta)
 		var target_rotation := atan2(direction.x, direction.z)
 		rotation.y = lerp_angle(rotation.y, target_rotation, ROTATION_SPEED * delta)
+		$TestDummyWalk/AnimationPlayer.play("mixamo_com")
 	else:
+		$TestDummyWalk/AnimationPlayer.stop()
 		velocity.x = move_toward(velocity.x, 0.0, DECELERATION * delta)
 		velocity.z = move_toward(velocity.z, 0.0, DECELERATION * delta)
 

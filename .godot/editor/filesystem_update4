@@ -1,1 +1,3 @@
+res://scenes/levels/level_base.tscn
 res://scenes/components/actors/Player.tscn
+res://scenes/components/actors/player.gd
