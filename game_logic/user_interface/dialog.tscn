@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://cwbr0rm7m5oh8"]
+
+[ext_resource type="Script" uid="uid://brrxkjtfb6tg3" path="res://game_logic/user_interface/dialog.gd" id="1_s875w"]
+
+[node name="DialogBox" type="Control" unique_id=151019058]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_s875w")
+metadata/_edit_use_anchors_ = true
+
+[node name="Dialogue" type="BoxContainer" parent="." unique_id=1344234487]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 2
+vertical = true
+
+[node name="Choices" type="BoxContainer" parent="Dialogue" unique_id=1272973642]
+layout_mode = 2
+vertical = true
+
+[node name="Box" type="BoxContainer" parent="Dialogue" unique_id=1433572417]
+layout_mode = 2
+vertical = true
+
+[node name="Name" type="Label" parent="Dialogue/Box" unique_id=1058426988]
+layout_mode = 2
+
+[node name="Dialog" type="RichTextLabel" parent="Dialogue/Box" unique_id=1087471889]
+layout_mode = 2
+fit_content = true

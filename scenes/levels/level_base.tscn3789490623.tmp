@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b5p8pj5d0m1pk"]
+
+[ext_resource type="Script" uid="uid://b8qmbhm67jvv2" path="res://scenes/levels/level_base.gd" id="1_u0om3"]
+[ext_resource type="PackedScene" uid="uid://5u5o300f5o2u" path="res://scenes/components/actors/Player.tscn" id="2_0y8gg"]
+
+[node name="LevelBase" type="Node3D" unique_id=1845265029 node_paths=PackedStringArray("player", "camera")]
+script = ExtResource("1_u0om3")
+player = NodePath("PlayerLogic/Player")
+camera = NodePath("Camera3D")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=449189886]
+transform = Transform3D(1, 0, 0, 0, 0.7071068, 0.7071068, 0, -0.7071068, 0.7071068, 0, 5.5, 5.5)
+
+[node name="PlayerLogic" type="Node3D" parent="." unique_id=1853526096]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="Player" parent="PlayerLogic" unique_id=275052377 instance=ExtResource("2_0y8gg")]
