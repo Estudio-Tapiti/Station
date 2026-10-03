@@ -1,10 +1,30 @@
-if (keyboard_check_pressed(ord("S")) && index < option_max - 1) {
+#region Menu
+
+keyUp=InputPressed(INPUT_VERB.UP);
+keyDown=InputPressed(INPUT_VERB.DOWN);
+keyInteract=InputPressed(INPUT_VERB.ACCEPT);
+
+if keyDown && index < option_max - 1 {
     index++;
 }
 
-if (keyboard_check_pressed(ord("W")) && index > 0) {
+if keyUp && index > 0 {
     index--;
 }
+
+if keyInteract {
+	if index == 0 {}
+	
+	if index == 1 {}
+	
+	if index == 2 {
+		game_end();
+	}
+}
+
+#endregion
+
+#region Design
 
 var y_half = display_get_gui_height() / 2;
 var target_y = y_half + (distance * index);
@@ -16,3 +36,5 @@ var target_height = string_height(selected_text) + 24;
 box_y = lerp(box_y, target_y, 0.2);
 box_width = lerp(box_width, target_width, 0.2);
 box_height = lerp(box_height, target_height, 0.2);
+
+#endregion

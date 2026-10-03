@@ -23,5 +23,4 @@ if(hsp !=0 || vsp!=0){
 	move_and_collide(_hspd,_vspd, collisionMap);
 }
 
-
 #endregion
