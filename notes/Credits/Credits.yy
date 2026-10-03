@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Credits",
+  "name":"Credits",
+  "parent":{
+    "name":"StationGMProto",
+    "path":"StationGMProto.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

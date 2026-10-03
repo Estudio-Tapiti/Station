@@ -1,0 +1,10 @@
+Station (Working title)
+by Tapiti Studio
+
+Made by Chaw and sosumi
+
+Technology Credits
+
+Made with GameMaker
+
+Scribble Text Renderer and Input by Juju Adams
