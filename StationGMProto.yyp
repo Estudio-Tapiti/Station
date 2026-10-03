@@ -105,6 +105,7 @@
   "resources":[
     {"id":{"name":"ftMenu","path":"fonts/ftMenu/ftMenu.yy",},},
     {"id":{"name":"scribble_fallback_font","path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},},
+    {"id":{"name":"Credits","path":"notes/Credits/Credits.yy",},},
     {"id":{"name":"__InputUpdateController","path":"objects/__InputUpdateController/__InputUpdateController.yy",},},
     {"id":{"name":"mngrDebug","path":"objects/mngrDebug/mngrDebug.yy",},},
     {"id":{"name":"mngrProgram","path":"objects/mngrProgram/mngrProgram.yy",},},
@@ -544,6 +545,7 @@
     {"id":{"name":"scribble_whitelist_sound","path":"scripts/scribble_whitelist_sound/scribble_whitelist_sound.yy",},},
     {"id":{"name":"scribble_whitelist_sprite","path":"scripts/scribble_whitelist_sprite/scribble_whitelist_sprite.yy",},},
     {"id":{"name":"scribble","path":"scripts/scribble/scribble.yy",},},
+    {"id":{"name":"scrShutTheFuckUpFeatherIDidntWriteAnyOfThis","path":"scripts/scrShutTheFuckUpFeatherIDidntWriteAnyOfThis/scrShutTheFuckUpFeatherIDidntWriteAnyOfThis.yy",},},
     {"id":{"name":"scrSystemConstants","path":"scripts/scrSystemConstants/scrSystemConstants.yy",},},
     {"id":{"name":"string_height_scribble_ext","path":"scripts/string_height_scribble_ext/string_height_scribble_ext.yy",},},
     {"id":{"name":"string_height_scribble","path":"scripts/string_height_scribble/string_height_scribble.yy",},},
