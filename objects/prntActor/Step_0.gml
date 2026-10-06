@@ -21,6 +21,18 @@ if(hsp !=0 || vsp!=0){
 	
 	//Apply walking and collide with wall tiles
 	move_and_collide(_hspd,_vspd, collisionMap);
+	
+	//Update direction
+	show_debug_message("player's direction is "+string(dir));
+	var _angle = point_direction(0, 0, hsp, vsp);
+	dir = (round(_angle / 90)) % 4; 
+	
 }
+
+#endregion
+
+#region Animation
+
+sprite_index=walkSprite[dir];
 
 #endregion

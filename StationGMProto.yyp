@@ -562,6 +562,9 @@
     {"id":{"name":"__shd_scribble_bake_shadow","path":"shaders/__shd_scribble_bake_shadow/__shd_scribble_bake_shadow.yy",},},
     {"id":{"name":"__shd_scribble","path":"shaders/__shd_scribble/__shd_scribble.yy",},},
     {"id":{"name":"sActorD","path":"sprites/sActorD/sActorD.yy",},},
+    {"id":{"name":"sActorL","path":"sprites/sActorL/sActorL.yy",},},
+    {"id":{"name":"sActorR","path":"sprites/sActorR/sActorR.yy",},},
+    {"id":{"name":"sActorU","path":"sprites/sActorU/sActorU.yy",},},
     {"id":{"name":"scribble_fallback_bulletpoint","path":"sprites/scribble_fallback_bulletpoint/scribble_fallback_bulletpoint.yy",},},
     {"id":{"name":"sDebugRoomTs","path":"sprites/sDebugRoomTs/sDebugRoomTs.yy",},},
     {"id":{"name":"sWallCollisionTs","path":"sprites/sWallCollisionTs/sWallCollisionTs.yy",},},
@@ -571,9 +574,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rmMenu","path":"rooms/rmMenu/rmMenu.yy",},},
     {"roomId":{"name":"rmStartup","path":"rooms/rmStartup/rmStartup.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rmMenu","path":"rooms/rmMenu/rmMenu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -1,3 +1,11 @@
+//Cardinal directions
+enum CARDINALS{
+	RIGHT,
+	UP,
+	LEFT,
+	DOWN
+}
+
 //State definitions for prntActor and all its children
 enum ACTORSTATES{
 	PLAYER,
